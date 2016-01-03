@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Entity">
+      <UniqueIdentifier>{bd85673a-94ef-4d2a-9eb8-2d0e86169008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Entity\Player">
+      <UniqueIdentifier>{573796c6-dc22-4fc3-8785-531c403a63b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Entity\Enemy">
+      <UniqueIdentifier>{4277f6e1-10c4-4c94-bca3-d01dadd0c629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Entity\Bullet">
+      <UniqueIdentifier>{13ebc1ed-6797-4307-8212-d0ec1f83f532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{13f788ed-2d75-4585-8b92-1d44c71b8e81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Entity\Box">
+      <UniqueIdentifier>{3e1f24d1-7a46-450e-8c3c-3335414d507e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Entity\Point">
+      <UniqueIdentifier>{dd5b736a-e452-4a97-b3ff-afbcd7e50d49}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>소스 파일\Entity\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>소스 파일\Entity\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>소스 파일\Entity\Point</Filter>
+    </ClCompile>
+    <ClCompile Include="소스.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>소스 파일\Entity\Box</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bullet.h">
+      <Filter>소스 파일\Entity\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>소스 파일\Entity\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\Entity\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>소스 파일\Entity\Point</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>소스 파일\Entity\Box</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
